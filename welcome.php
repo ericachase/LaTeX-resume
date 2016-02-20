@@ -4,7 +4,10 @@
 
 <h1>My first PHP page</h1>
 
-<?php echo $_GET["name"]; ?>
+<?php 
+$sergio = echo $_GET["name"];
+echo $sergio;
+?>
 
 </body>
 </html>
