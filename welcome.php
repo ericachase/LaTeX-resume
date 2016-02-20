@@ -7,7 +7,12 @@
 
 <?php 
 $name =  $_GET["name"];
-shell_exec('pdflatex test.tex');
+
+$command = 'ls -l';
+$output = shell_exec($command);
+echo "<pre>$output</pre>";
+
+
 
 //echo ('pdflatex template_.tex ' . $name); 
 
