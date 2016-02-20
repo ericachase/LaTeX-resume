@@ -1,0 +1,166 @@
+\documentclass[a4paper,11pt,final]{memoir}
+
+% misc
+\renewcommand{\familydefault}{bch}  % font
+\pagestyle{empty}                   % no pagenumbering
+\setlength{\parindent}{0pt}         % no paragraph indentation
+
+
+% required packages (add your own)
+\usepackage{flowfram}                                       % column layout
+\usepackage[top=1cm,left=1cm,right=1cm,bottom=1cm]{geometry}% margins
+\usepackage{graphicx}                                       % figures
+\usepackage{url}                                            % URLs
+\usepackage[usenames,dvipsnames]{xcolor}                    % color
+\usepackage{multicol}                                       % columns env.
+    \setlength{\multicolsep}{0pt}
+\usepackage{paralist}                                       % compact lists
+\usepackage{tikz}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create column layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define length commands
+\setlength{\vcolumnsep}{\baselineskip}
+\setlength{\columnsep}{\vcolumnsep}
+
+% left frame
+\newflowframe{0.2\textwidth}{\textheight}{0pt}{0pt}[left]
+    \newlength{\LeftMainSep}
+    \setlength{\LeftMainSep}{0.2\textwidth}
+    \addtolength{\LeftMainSep}{1\columnsep}
+ 
+% small static frame for the vertical line
+\newstaticframe{1.5pt}{\textheight}{\LeftMainSep}{0pt}
+ 
+% content of the static frame
+\begin{staticcontents}{1}
+\hfill
+\tikz{%
+    \draw[,color=RoyalBlue,line width=.4pt,yshift=0]
+    (0,0) -- (0,\textheight);}%
+\hfill\mbox{}
+\end{staticcontents}
+ 
+% right frame
+\addtolength{\LeftMainSep}{1.5pt}
+\addtolength{\LeftMainSep}{1\columnsep}
+\newflowframe{0.7\textwidth}{\textheight}{\LeftMainSep}{0pt}[main01]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define macros (for convience)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Sep}{\vspace{1.5em}}
+\newcommand{\SmallSep}{\vspace{0.5em}}
+
+\newenvironment{AboutMe}
+    {\ignorespaces\textbf{\color{RoyalBlue} About me}}
+    {\Sep\ignorespacesafterend}
+    
+\newcommand{\CVSection}[1]
+    {\Large\textbf{#1}\par
+    \SmallSep\normalsize\normalfont}
+
+\newcommand{\CVItem}[1]
+    {\textbf{\color{RoyalBlue} #1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% Left frame
+%%%%%%%%%%%%%%%%%%%%
+%
+% Upload your own photo using the files menu
+% \begin{figure}
+%     \hfill
+%     \includegraphics[width=0.6\columnwidth]{cvphoto.png}
+%     \vspace{-7cm}
+% \end{figure}
+
+\begin{flushright}\small 
+    jdoe@email.com  \\
+    www.website.com \\
+    (222) 555-3333 \\
+    123 Blue Jay Way \\
+    New York, New York 12345 \\
+\end{flushright}\normalsize
+\framebreak
+
+
+% Right frame
+%%%%%%%%%%%%%%%%%%%%
+\Huge\bfseries {Jane Doe} \\
+\Large\bfseries  {\color{RoyalBlue} Web Developer} \\
+
+\normalsize\normalfont
+
+% Objective
+Objective: To obtain a job within my chosen field that will challenge me and allow me to use my education, skills and past experiences in a way that is mutually beneficial to both myself and my employer and allow for future growth and advancement.
+\Sep
+
+% Education
+\CVSection{Education}
+\CVItem{Townsville University, August 2007 - May 2011}\\
+Bachelor of Science in Computer Science, Minor in Graphic Design \\
+GPA: 3.18/4.00
+\SmallSep
+
+% Experience
+\CVSection{Work Experience}
+\CVItem{Businessplace, June 2008 - present}\\
+Junior Developer \SmallSep \\
+Responsibilities include Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus. Proin rutrum pharetra molestie. Cras sollicitudin nulla nec leo lobortis in tristique purus pretium. Ut eu felis nulla.
+\SmallSep
+
+\CVItem{Restaurant, March 2006 - June 2008}\\
+Hostess \SmallSep \\
+Responsibilities include Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus. Proin rutrum pharetra molestie. Cras sollicitudin nulla nec leo lobortis in tristique purus pretium. Ut eu felis nulla.
+\SmallSep
+
+\CVItem{School, September 2004 - January 2007}\\
+Tutor \SmallSep \\
+Responsibilities include Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus. Proin rutrum pharetra molestie. Cras sollicitudin nulla nec leo lobortis in tristique purus pretium. Ut eu felis nulla.
+\SmallSep
+
+
+
+% Skills
+\CVSection{Additional Skills}
+\CVItem{Platforms}
+\begin{multicols}{3}
+\begin{compactitem}[\color{RoyalBlue}$\circ$]
+    \item Lorem 
+    \item Ipsum 
+\end{compactitem}
+\end{multicols}
+\SmallSep
+
+\CVItem{Computer software}
+\begin{multicols}{3}
+\begin{compactitem}[\color{RoyalBlue}$\circ$]
+    \item Lorem 
+    \item Ipsum 
+    \item Dolor 
+    \item Sit 
+    \item Amet
+    \item Consectetur 
+    \item Adipiscing 
+    \item Elit
+    \item \ldots
+\end{compactitem}
+\end{multicols}
+\Sep 
+
+% References
+\CVSection{References}
+References upon request.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+              

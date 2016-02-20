@@ -7,10 +7,10 @@
 
 <?php 
 $name =  $_GET["name"];
-$output = shell_exec('pdflatex command_test.tex sergiooooo');
-echo ('pdflatex command_test.tex ' . $name); 
+$output = shell_exec('pdflatex template_a.tex');
+//echo ('pdflatex template_.tex ' . $name); 
 
-$path = 'command_test.pdf';
+$path = 'template_a.pdf';
 header("Content-Length: " . filesize ( $path ) ); 
 header("Content-type: application/pdf"); 
 header("Content-disposition: inline; filename=".basename($path));
