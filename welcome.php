@@ -14,7 +14,7 @@ $output = shell_exec($command);
 
 
 
-echo ('pdflatex template_a.tex ' . $name); 
+//echo ('pdflatex template_a.tex ' . $name); 
 
 $path = 'template_a.pdf';
 header("Content-Length: " . filesize ( $path ) ); 
