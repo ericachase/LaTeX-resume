@@ -8,7 +8,7 @@
 <?php 
 $name =  $_GET["name"];
 
-$command = 'pdflatex test.tex';
+$command = 'pdflatex -shell-restricted test.tex';
 $output = shell_exec($command);
 echo "<pre>$output</pre>";
 
