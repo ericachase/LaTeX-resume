@@ -1,0 +1,22 @@
+\def\ReadCommandLineArg#1 {%
+	\def\CommandLineArg{#1}%
+	\input{\jobname}}
+\unless\ifdefined\CommandLineArg
+\endinput\expandafter\expandafter\expandafter\ReadCommandLineArg\fi
+
+\documentclass{memoir}
+
+\usepackage{datatool}
+\DTLsetseparator{,}
+
+\DTLloaddb{user}{\CommandLineArg}
+
+\begin{document}
+
+User: \DTLfetch{user}{name}{email}.
+
+
+Here's the information: Name: \name. Email: \email.
+
+
+\end{document}
