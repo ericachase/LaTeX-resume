@@ -8,7 +8,7 @@
 <?php 
 $name =  $_GET["name"];
 
-$command = 'pdflatex -output-directory=DIR test.tex';
+$command = 'pdflatex test.tex';
 $output = shell_exec($command);
 echo "<pre>$output</pre>";
 
