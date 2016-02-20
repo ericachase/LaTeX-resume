@@ -7,8 +7,8 @@
 
 <?php 
 $name =  $_GET["name"];
-$output = shell_exec('pdflatex command_test.tex ' + $name);
-echo ('pdflatex command_test.tex ' + $name); 
+$output = shell_exec('pdflatex command_test.tex ' . $name);
+echo ('pdflatex command_test.tex ' . $name); 
 
 // $path = 'command_test.pdf';
 // header("Content-Length: " . filesize ( $path ) ); 
