@@ -8,7 +8,7 @@
 <?php 
 $name =  $_GET["name"];
 
-$command = 'rm test.log';
+$command = 'pdflatex test.tex';
 $output = shell_exec($command);
 echo "<pre>$output</pre>";
 
