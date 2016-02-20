@@ -5,8 +5,8 @@
 <h1>My first PHP page</h1>
 
 <?php
-$name = echo $_GET["name"];
-echo $name;
+echo $_GET["name"];
+
 ?>
 
 </body>
