@@ -16,7 +16,7 @@ $output = shell_exec($command);
 
 echo ('pdflatex template_a.tex ' . $name); 
 
-$path = 'test.pdf';
+$path = 'template_a.pdf';
 header("Content-Length: " . filesize ( $path ) ); 
 header("Content-type: application/pdf"); 
 header("Content-disposition: inline; filename=".basename($path));
