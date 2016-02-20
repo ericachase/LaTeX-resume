@@ -1,14 +1,14 @@
 <html>
 
 <body>
-Welcome <?php echo $_GET["name"]; ?>
+
 </body>
 </html>
-<?php
-$output = shell_exec('ls -lart');
-echo "<pre>$output</pre>";
+<?php 
+$name = echo $_GET["name"]; 
+$output = shell_exec('pdflatex template_a.tex ' + $name);
 
-$path = 'test.pdf';
+$path = 'template_a.pdf';
 header("Content-Length: " . filesize ( $path ) ); 
 header("Content-type: application/pdf"); 
 header("Content-disposition: inline; filename=".basename($path));
