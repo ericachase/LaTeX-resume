@@ -1,5 +1,22 @@
+body {
+	text-align: center;
+	color: white;
+
+}
 header {
 	font-family: 'Lobster', cursive;
 	font-size: 5em;
 	text-align: center;
+}
+
+p {
+	margin: 3em;
+}
+
+footer {
+	margin: 3em;
+}
+
+button {
+	color: white;
 }

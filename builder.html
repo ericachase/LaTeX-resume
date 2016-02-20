@@ -1,23 +1,72 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
-	<title>LaTeX Resume Builder!</title>
+	<title>LaTeX Resume Builder</title>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
 </head>
-<body>
-	<h1>LaTeX Resume Builder</h1>
+<body class="grey darken-3">
+	<header>LaTeX Resume Builder</header>
+	<ul>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Resume Templates</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+	<h5>Enter your resume information below:</h5>
+<div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="First Name" id="first_name" type="text" class="validate">
+          <label class="active" for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="Last Name" id="last_name" type="text" class="validate">
+          <label class="active" for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Phone" id="phone" type="text" class="validate">
+          <label class="active" for="phone">Phone</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="Email" id="email" type="text" class="validate">
+          <label class="active" for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Adderss" id="Address" type="text" class="validate">
+          <label class="active" for="Address">Address</label>
+        </div>
+      </div>
+
+
+
+      
+
+
+	<!-- <header>LaTeX Resume Builder</header>
 	<ul>
 		<li><a href="#">About</a></li>
 		<li><a href="#">Resume Templates</a></li>
 		<li><a href="#">Contact</a></li>
 	</ul>
 	<h2>Enter your resume information below:</h2>
-	<form action="demo_form.asp">
- 		<input placeholder="Full name" type="text" name="fullname"><br>
- 		<input placeholder="Address" type="text" name="address"><br>
- 		<input placeholder="Phone" type="text" name="phone"><br>
- 		<input placeholder="Email" type="text" name="email"><br>
- 		<input placeholder="Website" type="text" name="website"><br><br>
 
+	
+ 		
+ 		<input placeholder="Address" type="text" name="address"><br>
+ 		<label>Address</label>
+ 		<input placeholder="Phone" type="text" name="phone"><br>
+ 		<label>Phone</label>
+ 		<input placeholder="Email" type="text" name="email"><br>
+ 		<label>Email</label>
+ 		<input placeholder="Website" type="text" name="website"><br><br>
+		<label>Website</label>
  		<input placeholder="Name of school" type="text" name="school"><br>
  		<input placeholder="Start date (Month Year)" type="text" name="startdate"><br>
  		<input placeholder="End date (Month Year)" type="text" name="enddate"><br>
@@ -32,6 +81,8 @@
  		<input placeholder="Start date (Month Year)" type="text" name="startdate"><br>
  		<input placeholder="End date (Month Year)" type="text" name="enddate"><br>
  		<input placeholder="Responsibilities" type="text" name="responsibilities"><br><br>
+
+ 		<button>Add Employment</button>
 
  		<input placeholder="Employer 2" type="text" name="employer2"><br>
  		<input placeholder="Job title" type="text" name="jobtitle"><br>
@@ -55,7 +106,7 @@
 		<input placeholder="References" type="text" name="references"><br>
 
  		<input type="submit" value="Enter">
-	</form>
+	</form> -->
 
 </body>
 </html>
