@@ -5,18 +5,20 @@
 	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+	
 </head>
 <body class="grey darken-3">
-	<header>LaTeX Resume Builder</header>
+	<header><a href="index.html">LaTeX Resume Builder</a></header>
 	<ul>
 		<li><a href="#">About</a></li>
 		<li><a href="#">Resume Templates</a></li>
 		<li><a href="#">Contact</a></li>
 	</ul>
-	<h5>Enter your resume information below:</h5>
 
-    <form class="col s12">
+<!--     <form class="col s12">
       	<div class="row">
         	<div class="input-field col s6">
           		<input placeholder="First Name" id="first_name" type="text" class="validate">
@@ -29,7 +31,7 @@
       	</div>
       	<div class="row">
         	<div class="input-field col s6">
-          		<input placeholder="Phone" id="phone" type="text" class="validate">
+          		<input  id="phone" type="text" class="validate">
           		<label class="active" for="phone">Phone</label>
         	</div>
         	<div class="input-field col s6">
@@ -71,9 +73,111 @@
           		<label class="active" for="degree">Degree</label>
         	</div>
       	</div> 
-  	</form>
-     
+      	<div class="row">
+        	<div class="input-field col s6">
+          		<input placeholder="Minor" id="minor" type="text" class="validate">
+          		<label class="active" for="minor">Minor</label>
+        	</div>
+        	<div class="input-field col s6">
+          		<input placeholder="GPA" id="gpa" type="text" class="validate">
+          		<label class="active" for="gpa">GPA</label>
+        	</div>
+      	</div>
+  	</form> -->
 
+
+  	<div class="row">
+	    <form class="col s12">
+	    	<p class="flow-text">Contact Information</p>
+	    	<div class="input-field">
+	    		<input type="text" placeholder="Full Name" id="full_name" type="text" class="validate">
+	    		<label for="full_name" class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input type="text"  placeholder="Address" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input type="text" placeholder="Phone" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="email" placeholder="Email" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Website" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<p class="flow-text">Education</p>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Start date (Month Year)" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="End date (Month Year)" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Degree" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Degree" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Minor" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Minor" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="GPA" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<p class="flow-text">Employment History</p>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Employer" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Job Title" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Start Date (Month Year)" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="End Date (Month Year)" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Responsibilities" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Additional Skill" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Additional Skill" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Additional Skill" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<div class="input-field">
+	    		<input  type="text" placeholder="Additional Skill" class="validate">
+	    		<label class="active"></label>
+	    	</div>
+	    	<button class="waves-effect waves-light btn-large">Submit</button>
+	    </form>
+	</div>
 
 
       

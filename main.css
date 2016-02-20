@@ -9,7 +9,7 @@ header {
 	text-align: center;
 }
 
-p {
+.copy {
 	margin: 3em;
 }
 
@@ -19,4 +19,38 @@ footer {
 
 button {
 	color: white;
+}
+
+ul > li{
+    display: inline-block;
+    zoom:1;
+    margin: 1.5em;
+    *display:inline; /* this fix is needed for IE7- */
+}
+
+a {
+	/*text-decoration: none;*/
+	color: white;
+}
+
+
+a.nav-link:link
+{
+   color: white;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: white;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: white;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: white;
+   text-decoration: none;
 }
