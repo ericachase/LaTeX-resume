@@ -1,0 +1,54 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 FEB 2016 13:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**command_test.tex
+(./command_test.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+! Illegal parameter number in definition of \ReadCommandLineArg.
+<to be read again> 
+                   1
+l.2   \def\CommandLineArg{#1
+                            }{#2}{%
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \ReadCommandLineArg.
+<to be read again> 
+                   2
+l.2   \def\CommandLineArg{#1}{#2
+                                }{%
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+)
+Runaway definition?
+->\def \CommandLineArg {##1}{##2}{\input {\jobname }} \unless \ifdefined \ETC.
+! File ended while scanning definition of \ReadCommandLineArg.
+<inserted text> 
+                }
+<*> command_test.tex
+                    
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> command_test.tex
+                    
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 7 strings out of 493089
+ 179 string characters out of 6134842
+ 53199 words of memory out of 5000000
+ 3592 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 5i,0n,1p,86b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

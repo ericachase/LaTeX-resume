@@ -1,10 +1,10 @@
-\def\ReadCommandLineArg#1 {%
-  \def\CommandLineArg{#1}%
+\def\ReadCommandLineArg{%
+  \def\CommandLineArg{#1}{#2}{%
   \input{\jobname}}
 \unless\ifdefined\CommandLineArg
 \endinput\expandafter\expandafter\expandafter\ReadCommandLineArg\fi
 
 \documentclass{article}
 \begin{document}
-Hello, \CommandLineArg, I am pleased to greet you.
+Hello, \CommandLineArg{}{}, I am pleased to greet you.
 \end{document}

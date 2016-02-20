@@ -1,0 +1,100 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\addbibresource{bibliography.bib}
+
+\begin{document}
+\header{jane}{doe}
+       {WEB DEVELOPER }
+
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{contact}
+    Jane Doe 
+    (222) 555-3333 
+    123 Blue Jay Way 
+    New York, New York 12345 
+    \href{mailto:jdoe@email.com }{jdoe@email.com }
+    \href{http://www.website.com}{www.website.com}
+\end{aside}
+
+\section{objective}
+To obtain a job within my chosen field that will challenge me and allow me to use my education, skills and past experiences in a way that is mutually beneficial to both myself and my employer and allow for future growth and advancement.
+
+\section{education}
+
+\begin{entrylist}
+  \entry
+    {2007 - 2011}
+    {Bachelor of Science {\normalfont in Computer Science}}
+    {GPA: 3.18/4.00}
+    {\emph{Minor in Graphic Design}}
+
+\end{entrylist}
+
+\section{experience}
+
+\begin{entrylist}
+  \entry
+    {2008 - now}
+    {Buisnessplace}
+    {Junior Developer}
+    {\emph{Responsibilities include Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus. Proin rutrum pharetra molestie. Cras sollicitudin nulla nec leo lobortis in tristique purus pretium. Ut eu felis nulla.}}
+  \entry
+    {2006 - 2008}
+    {Restaurant}
+    {Hostess}
+    {\emph{Responsibilities include Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus. Proin rutrum pharetra molestie. Cras sollicitudin nulla nec leo lobortis in tristique purus pretium. Ut eu felis nulla.}}
+  \entry
+    {2004 - 2007}
+    {School}
+    {Tutor}
+    {\emph{Responsibilities include Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus. Proin rutrum pharetra molestie. Cras sollicitudin nulla nec leo lobortis in tristique purus pretium. Ut eu felis nulla.}}
+\end{entrylist}
+
+\section{additional skills}
+
+\begin{entrylist}
+  \entry
+    {}
+    {}
+    {}
+    {Proin rutrum pharetra molestie. Cras sollicitudin nulla nec leo lobortis in tristique purus pretium.}
+  \entry
+    {}
+    {}
+    {}
+    {Cras sollicitudin nulla nec leo lobortis in tristique purus pretium. Ut eu felis nulla.}
+  \entry
+    {}
+    {}
+    {}
+    {Vivamus vel bibendum metus. Proin rutrum pharetra molestie. Cras sollicitudin nulla nec leo lobortis in tristique purus pretium.}
+\end{entrylist}
+
+\section{references}
+  \begin{entrylist}
+  \entry
+    {}
+    {}
+    {}
+    {Available upon request.}
+  \end{entrylist}
+
+
+
+%%% This piece of code has been commented by Karol Kozioł due to biblatex errors. 
+% 
+%\printbibsection{article}{article in peer-reviewed journal}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+%\printbibsection{misc}{other publications}
+%\printbibsection{report}{research reports}
+
+\end{document}
