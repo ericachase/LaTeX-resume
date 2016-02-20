@@ -19,7 +19,6 @@ echo "<pre>$output</pre>";
 
 // $path = 'test.pdf';
 =======
-//echo ('pdflatex template_a.tex ' . $name); 
 
 // $path = 'template_a.pdf';
 // header("Content-Length: " . filesize ( $path ) ); 
