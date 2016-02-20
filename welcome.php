@@ -7,7 +7,8 @@
 
 <?php 
 $name =  $_GET["name"];
-$output = shell_exec('pdflatex test.tex');
+shell_exec('pdflatex test.tex');
+
 //echo ('pdflatex template_.tex ' . $name); 
 
 // $path = 'test.pdf';
