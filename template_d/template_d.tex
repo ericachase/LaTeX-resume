@@ -24,17 +24,15 @@
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
-\name{Jane}{}
-\title{Doe}                               % optional, remove / comment the line if not wanted
-\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
-\phone[mobile]{+1~(234)~567~890}                   % optional, remove / comment the line if not wanted
-\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
-\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
-\email{john@doe.org}                               % optional, remove / comment the line if not wanted
-\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
-\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
-\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+\name{Jane}{Doe}
+% \title{}                               % optional, remove / comment the line if not wanted
+\address{123 Blue Jay Way}{New York, New York}{12345}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{(222) 555-3333}                   % optional, remove / comment 
+\email{jdoe@email.com}                               % optional, remove / comment the line if not wanted
+\homepage{www.website.com}                         % optional, remove / comment the line if not wanted
+% \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+% \photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{Objective: To obtain a job within my chosen field that will challenge me and allow me to use my education, skills and past experiences in a way that is mutually beneficial to both myself and my employer and allow for future growth and advancement.}                                 % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
 %\makeatletter
@@ -54,67 +52,25 @@
 \makecvtitle
 
 \section{Education}
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\cventry{2007--2011}{Bachelor of Science in Computer Science, Minor in Graphic Design}{Townsville University}{}
+{\textit{GPA: 3.18}}{}  % arguments 3 to 6 can be left empty
 
-\section{Master thesis}
-\cvitem{title}{\emph{Title}}
-\cvitem{supervisors}{Supervisors}
-\cvitem{description}{Short thesis abstract}
+\section{Work Experience}
+\cventry{2008--present}{Junior Developer}{Businessplace}{}{}{Responsibilities include Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus. Urem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus.\newline{}}%
 
-\section{Experience}
-\subsection{Vocational}
-\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
-Detailed achievements:%
-\begin{itemize}%
-\item Achievement 1;
-\item Achievement 2, with sub-achievements:
-  \begin{itemize}%
-  \item Sub-achievement (a);
-  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
-    \begin{itemize}
-    \item Sub-sub-achievement i;
-    \item Sub-sub-achievement ii;
-    \item Sub-sub-achievement iii;
-    \end{itemize}
-  \item Sub-achievement (c);
-  \end{itemize}
-\item Achievement 3.
-\end{itemize}}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
-\subsection{Miscellaneous}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+\cventry{2006--2008}{Hostess}{Restaurant}{}{}{Responsibilities include Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus. Urem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus.\newline{}}%
 
-\section{Languages}
-\cvitemwithcomment{Language 1}{Skill level}{Comment}
-\cvitemwithcomment{Language 2}{Skill level}{Comment}
-\cvitemwithcomment{Language 3}{Skill level}{Comment}
+\cventry{2004--2007}{Tutor}{School}{}{}{Responsibilities include Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus. Urem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus.\newline{}}%
 
-\section{Computer skills}
-\cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
-\cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
-\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
-
-\section{Interests}
-\cvitem{hobby 1}{Description}
-\cvitem{hobby 2}{Description}
-\cvitem{hobby 3}{Description}
-
-\section{Extra 1}
-\cvlistitem{Item 1}
-\cvlistitem{Item 2}
-\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
-
-\section{Extra 2}
-\cvlistdoubleitem{Item 1}{Item 4}
-\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
-\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+\section{Additional Skills}
+\cvlistitem{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus.}
+\cvlistitem{Dolor sit amet, consectetur adipiscing elit.}
+\cvlistitem{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel bibendum metus. Dolor sit amet, consectetur adipiscing elit. Dolor sit amet, consectetur adipiscing elit.}
 
 \section{References}
 \begin{cvcolumns}
-  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
-  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
-  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+  \cvcolumn{}{\begin{itemize}\item Available upon request.\end{itemize}}
+  
 \end{cvcolumns}
 
 % Publications from a BibTeX file without multibib
