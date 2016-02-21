@@ -15,11 +15,11 @@ file_put_contents('database.csv', $Content);
 //shell_exec('echo' . ' ' . $Content . ' ' . '>' . 'database.csv');
 
 //calling the complie command
-shell_exec('pdflatex' . ' ' . 'simpleres.tex' . ' ' . 'database.csv');
+shell_exec('pdflatex' . ' ' . 'points.tex' . ' ' . 'points.csv');
 
 //$output = shell_exec('pdflatex command_test.tex ' + $name);
 // echo ('pdflatex command_test.tex ' + $name); 
-$path = 'simpleres.pdf';
+$path = 'points.pdf';
 header("Content-Length: " . filesize ( $path ) ); 
 header("Content-type: application/pdf"); 
 header("Content-disposition: inline; filename=".basename($path));
