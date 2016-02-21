@@ -1,6 +1,5 @@
 body {
 	text-align: center;
-	color: white;
 
 }
 header {
@@ -11,14 +10,20 @@ header {
 
 .copy {
 	margin: 3em;
+	color: white;
 }
 
 footer {
 	margin: 3em;
+	color: white;
 }
 
 button {
 	color: white;
+}
+
+button p {
+	color: black;
 }
 
 ul > li{
@@ -30,6 +35,10 @@ ul > li{
 
 a {
 	/*text-decoration: none;*/
-	color: white !important;
+	color: white;
 }
 
+
+.card-text {
+	color: black;
+}
