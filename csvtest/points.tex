@@ -1,0 +1,24 @@
+\documentclass{memoir}
+
+\usepackage{datatool}
+\DTLsetseparator{|}
+
+\DTLloaddb{players}{database.csv}
+
+\begin{document}
+
+Sue's points: \DTLfetch{players}{name}{Sue}{points}.
+
+Pull information from row 3.
+\DTLassign{players}{3}{\name=name,\points=points}
+
+Here's the information: Name: \name. Points: \points.
+
+Pull information from the first row where the name column has the
+value ``John''.
+\DTLassignfirstmatch{players}{name}{John}{\name=name,\points=points}
+
+Here's the information: Name (we already know this anyway): \name.
+Points: \points.
+
+\end{document}
