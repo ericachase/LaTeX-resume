@@ -11,7 +11,7 @@ echo $Content;
 shell_exec('rm database.csv');
 
 //cat-ing the contents of the GET to a db file
-shell_exec('echo' . ' ' . $Content . ' ' . '>' . ' ' . 'database.csv');
+shell_exec('echo' . ' ' . $Content . ' ' . '>' . 'database.csv');
 
 //calling the complie command
 shell_exec('pdflatex' . ' ' . 'simpleres.tex' . ' ' . 'database.csv');
