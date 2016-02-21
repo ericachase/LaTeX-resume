@@ -51,6 +51,10 @@ header a {
 	margin: 3em;
 	color: white;
 }
+.latex {
+	opacity: .5;
+	color: white;
+}
 
 .modal-img {
 	margin: .5em;
