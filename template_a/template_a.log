@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 FEB 2016 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  20 FEB 2016 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **template_a.tex
 (./template_a.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9n> and hyphenation patterns for 80 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/memoir/memoir.cls
-Document Class: memoir 2015/04/23 v3.7d configurable book, report, article docu
+Document Class: memoir 2015/07/08 v3.7e configurable book, report, article docu
 ment class
 \onelineskip=\skip41
 \lxvchars=\skip42
@@ -34,10 +34,6 @@ Package ifluatex Info: LuaTeX not detected.
 \trimtop=\skip46
 \trimedge=\skip47
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/etex-pkg/etex.sty
-Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
-\et@xins=\count81
-)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/memoir/mem11.clo
 File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 )
@@ -51,20 +47,20 @@ File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 \mem@maxheadheight=\skip55
 \mem@maxfootheight=\skip56
 \headwidth=\skip57
-\c@storedpagenumber=\count82
+\c@storedpagenumber=\count81
 \memPD=\dimen102
 \m@mabparskip=\skip58
 \thanksmarkwidth=\skip59
 \thanksmarksep=\skip60
 \droptitle=\skip61
-\c@book=\count83
-\c@part=\count84
-\c@chapter=\count85
-\c@section=\count86
-\c@subsection=\count87
-\c@subsubsection=\count88
-\c@paragraph=\count89
-\c@subparagraph=\count90
+\c@book=\count82
+\c@part=\count83
+\c@chapter=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
 \beforechapskip=\skip62
 \midchapskip=\skip63
 \afterchapskip=\skip64
@@ -86,8 +82,8 @@ File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 \beforesubparaskip=\skip80
 \aftersubparaskip=\skip81
 \pfbreakskip=\skip82
-\c@@ppsavesec=\count91
-\c@@ppsaveapp=\count92
+\c@@ppsavesec=\count90
+\c@@ppsaveapp=\count91
 \ragrparindent=\dimen103
 \everylistparindent=\dimen104
 \parsepi=\skip83
@@ -109,10 +105,10 @@ File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 \absrightindent=\skip97
 \absparindent=\skip98
 \absparsep=\skip99
-\c@vslineno=\count93
-\c@poemline=\count94
-\c@modulo@vs=\count95
-\c@memfvsline=\count96
+\c@vslineno=\count92
+\c@poemline=\count93
+\c@modulo@vs=\count94
+\c@memfvsline=\count95
 \vleftskip=\skip100
 \vrightskip=\skip101
 \stanzaskip=\skip102
@@ -120,11 +116,11 @@ File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 \vgap=\skip104
 \vindent=\skip105
 \vleftmargin=\dimen106
-\c@verse=\count97
-\c@chrsinstr=\count98
+\c@verse=\count96
+\c@chrsinstr=\count97
 \beforepoemtitleskip=\skip106
 \afterpoemtitleskip=\skip107
-\c@poem=\count99
+\c@poem=\count98
 \beforePoemTitleskip=\skip108
 \midPoemTitleskip=\skip109
 \afterPoemTitleskip=\skip110
@@ -138,7 +134,7 @@ File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 \TX@old@col=\dimen111
 \TX@target=\dimen112
 \TX@delta=\dimen113
-\TX@cols=\count100
+\TX@cols=\count99
 \TX@ftn=\toks16
 \heavyrulewidth=\dimen114
 \lightrulewidth=\dimen115
@@ -150,22 +146,22 @@ File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 \cmidrulesep=\dimen121
 \cmidrulekern=\dimen122
 \defaultaddspace=\dimen123
-\@cmidla=\count101
-\@cmidlb=\count102
+\@cmidla=\count100
+\@cmidlb=\count101
 \@aboverulesep=\dimen124
 \@belowrulesep=\dimen125
-\@thisruleclass=\count103
-\@lastruleclass=\count104
+\@thisruleclass=\count102
+\@lastruleclass=\count103
 \@thisrulewidth=\dimen126
 \ctableftskip=\skip113
 \ctabrightskip=\skip114
-\abovecolumnspenalty=\count105
-\@linestogo=\count106
-\@cellstogo=\count107
-\@cellsincolumn=\count108
+\abovecolumnspenalty=\count104
+\@linestogo=\count105
+\@cellstogo=\count106
+\@cellsincolumn=\count107
 \crtok=\toks17
 \@mincolumnwidth=\dimen127
-\c@newflo@tctr=\count109
+\c@newflo@tctr=\count108
 \mem@margin@floatbox=\box26
 \@contcwidth=\skip115
 \@contindw=\skip116
@@ -177,7 +173,7 @@ File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 \subfloatbottomskip=\skip122
 \subfloatlabelskip=\skip123
 \subfloatcapmargin=\dimen128
-\c@@contsubnum=\count110
+\c@@contsubnum=\count109
 \m@mscap@capbox=\box27
 \m@mscap@fbox=\box28
 \sidecapsep=\dimen129
@@ -191,8 +187,8 @@ File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 \afterepigraphskip=\skip125
 \epigraphwidth=\skip126
 \epigraphrule=\skip127
-LaTeX Info: Redefining \em on input line 7533.
-LaTeX Info: Redefining \emph on input line 7541.
+LaTeX Info: Redefining \em on input line 7535.
+LaTeX Info: Redefining \emph on input line 7543.
 \tocentryskip=\skip128
 \tocbaseline=\skip129
 \cftparskip=\skip130
@@ -221,17 +217,17 @@ LaTeX Info: Redefining \emph on input line 7541.
 \cftsubparagraphindent=\skip151
 \cftsubparagraphnumwidth=\skip152
 \prechapterprecisshift=\dimen138
-\c@maxsecnumdepth=\count111
+\c@maxsecnumdepth=\count110
 \bibindent=\dimen139
 \bibitemsep=\skip153
 \indexcolsep=\skip154
 \indexrule=\skip155
 \indexmarkstyle=\toks18
-\@indexbox=\insert233
+\@indexbox=\insert199
 \glossarycolsep=\dimen140
 \glossaryrule=\dimen141
 \sideparvshift=\skip156
-\sideins=\insert232
+\sideins=\insert198
 \sidebartopsep=\skip157
 \sidebarhsep=\skip158
 \sidebarvsep=\skip159
@@ -240,64 +236,64 @@ LaTeX Info: Redefining \emph on input line 7541.
 \footmarksep=\skip162
 \footparindent=\skip163
 \footinsdim=\skip164
-\footinsv@r=\insert231
-\@mpfootinsv@r=\insert230
-\m@m@k=\count112
+\footinsv@r=\insert197
+\@mpfootinsv@r=\insert196
+\m@m@k=\count111
 \m@m@h=\dimen142
 \m@mipn@skip=\skip165
-\sidefootins=\insert229
+\sidefootins=\insert195
 \sidefootadjust=\skip166
 \sidefootheight=\skip167
 \sidefoothsep=\skip168
 \sidefootvsep=\skip169
 \sidefootwidth=\skip170
 \m@mdownsf=\skip171
-\c@sidefootnote=\count113
+\c@sidefootnote=\count112
 \sidefootmarkwidth=\skip172
 \sidefootmarksep=\skip173
 \sidefootparindent=\skip174
-\c@pagenote=\count114
-\c@pagenoteshadow=\count115
+\c@pagenote=\count113
+\c@pagenoteshadow=\count114
 \mem@pn@lastkern=\skip175
 \every@verbatim=\toks19
 \afterevery@verbatim=\toks20
 \verbatim@line=\toks21
-\tab@position=\count116
+\tab@position=\count115
 \verbatim@in@stream=\read1
 \verbatimindent=\skip176
 \verbatim@out=\write3
 \bvboxsep=\skip177
-\c@memfbvline=\count117
-\c@bvlinectr=\count118
+\c@memfbvline=\count116
+\c@bvlinectr=\count117
 \bvnumlength=\skip178
 \fb@frw=\dimen143
 \fb@frh=\dimen144
 \FrameRule=\dimen145
 \FrameSep=\dimen146
-\c@cp@cntr=\count119
-LaTeX Info: Redefining \: on input line 12050.
-LaTeX Info: Redefining \! on input line 12052.
-\c@ism@mctr=\count120
-\c@xsm@mctr=\count121
-\c@csm@mctr=\count122
-\c@ksm@mctr=\count123
-\c@xksm@mctr=\count124
-\c@cksm@mctr=\count125
-\c@msm@mctr=\count126
-\c@xmsm@mctr=\count127
-\c@cmsm@mctr=\count128
-\c@bsm@mctr=\count129
-\c@workm@mctr=\count130
-\c@sheetsequence=\count131
-\c@lastsheet=\count132
-\c@lastpage=\count133
-\c@figure=\count134
-\c@lofdepth=\count135
+\c@cp@cntr=\count118
+LaTeX Info: Redefining \: on input line 12052.
+LaTeX Info: Redefining \! on input line 12054.
+\c@ism@mctr=\count119
+\c@xsm@mctr=\count120
+\c@csm@mctr=\count121
+\c@ksm@mctr=\count122
+\c@xksm@mctr=\count123
+\c@cksm@mctr=\count124
+\c@msm@mctr=\count125
+\c@xmsm@mctr=\count126
+\c@cmsm@mctr=\count127
+\c@bsm@mctr=\count128
+\c@workm@mctr=\count129
+\c@sheetsequence=\count130
+\c@lastsheet=\count131
+\c@lastpage=\count132
+\c@figure=\count133
+\c@lofdepth=\count134
 \cftbeforefigureskip=\skip179
 \cftfigureindent=\skip180
 \cftfigurenumwidth=\skip181
-\c@table=\count136
-\c@lotdepth=\count137
+\c@table=\count135
+\c@lotdepth=\count136
 \cftbeforetableskip=\skip182
 \cfttableindent=\skip183
 \cfttablenumwidth=\skip184
@@ -355,19 +351,19 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@tempa@toks=\toks23
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count138
+\XKV@depth=\count137
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -378,7 +374,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count139
+\Gread@gobject=\count138
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
@@ -390,27 +386,27 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2015/05/04 v2.2 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count140
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count139
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 142.
+Package color Info: Driver file: pdftex.def on input line 143.
 )
 \fflabelsep=\skip185
-\c@absolutepage=\count141
-\c@maxflow=\count142
-\c@thisframe=\count143
-\c@displayedframe=\count144
-\c@maxstatic=\count145
-\c@maxdynamic=\count146
-\@colN=\count147
-\@ff@tmpN=\count148
-\ff@id=\count149
+\c@absolutepage=\count140
+\c@maxflow=\count141
+\c@thisframe=\count142
+\c@displayedframe=\count143
+\c@maxstatic=\count144
+\c@maxdynamic=\count145
+\@colN=\count146
+\@ff@tmpN=\count147
+\ff@id=\count148
 \@ff@offset=\skip186
 \@ff@tmp@x=\skip187
 \@ff@tmp@x@even=\skip188
@@ -424,38 +420,38 @@ Package color Info: Driver file: pdftex.def on input line 142.
 \flf@tb=\toks27
 \ffareawidth=\skip193
 \ffareaheight=\skip194
-\ffareax=\skip195
-\ffareay=\skip196
-\ffareaevenx=\skip197
-\ffareaeveny=\skip198
-\fftolerance=\skip199
-\c@ffrangenum=\count150
-\c@curpg=\count151
-\ffevenoffset=\skip200
-\@nxtcol=\count152
-\columnheight=\skip201
-\vcolumnsep=\skip202
-\@ff@staticH=\skip203
-\@ff@adjh=\count153
-\@ff@staticW=\skip204
-\@thisstrip=\count154
-\ffcolumnseprule=\skip205
-\@ff@left@x=\skip206
-\@ff@left@y=\skip207
-\@ff@left@evenx=\skip208
-\@ff@left@eveny=\skip209
-\@ff@left@width=\skip210
-\@ff@left@height=\skip211
-\c@maxthumbtabs=\count155
-\thumbtabwidth=\skip212
-\@greyscale=\count156
-\c@maxtocunits=\count157
-\c@maxminitoc=\count158
-\@ttb@level=\count159
-\@ttb@minitoclevel=\count160
-\beforeminitocskip=\skip213
-\afterminitocskip=\skip214
-\c@minitoc=\count161
+\ffareax=\skip256
+\ffareay=\skip257
+\ffareaevenx=\skip258
+\ffareaeveny=\skip259
+\fftolerance=\skip260
+\c@ffrangenum=\count149
+\c@curpg=\count150
+\ffevenoffset=\skip261
+\@nxtcol=\count151
+\columnheight=\skip262
+\vcolumnsep=\skip263
+\@ff@staticH=\skip264
+\@ff@adjh=\count152
+\@ff@staticW=\skip265
+\@thisstrip=\count153
+\ffcolumnseprule=\skip266
+\@ff@left@x=\skip267
+\@ff@left@y=\skip268
+\@ff@left@evenx=\skip269
+\@ff@left@eveny=\skip270
+\@ff@left@width=\skip271
+\@ff@left@height=\skip272
+\c@maxthumbtabs=\count154
+\thumbtabwidth=\skip273
+\@greyscale=\count155
+\c@maxtocunits=\count156
+\c@maxminitoc=\count157
+\@ttb@level=\count158
+\@ttb@minitoclevel=\count159
+\beforeminitocskip=\skip274
+\afterminitocskip=\skip275
+\c@minitoc=\count160
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -464,9 +460,9 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count162
-\Gm@cntv=\count163
-\c@Gm@tempcnt=\count164
+\Gm@cnth=\count161
+\Gm@cntv=\count162
+\c@Gm@tempcnt=\count163
 \Gm@bindingoffset=\dimen147
 \Gm@wd@mp=\dimen148
 \Gm@odd@mp=\dimen149
@@ -506,24 +502,24 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
-\c@tracingmulticols=\count165
+Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
+\c@tracingmulticols=\count164
 \mult@box=\box32
 \multicol@leftmargin=\dimen157
-\c@unbalance=\count166
-\c@collectmore=\count167
-\doublecol@number=\count168
-\multicoltolerance=\count169
-\multicolpretolerance=\count170
+\c@unbalance=\count165
+\c@collectmore=\count166
+\doublecol@number=\count167
+\multicoltolerance=\count168
+\multicolpretolerance=\count169
 \full@width=\dimen158
 \page@free=\dimen159
 \premulticols=\dimen160
 \postmulticols=\dimen161
-\multicolsep=\skip215
-\multicolbaselineskip=\skip216
+\multicolsep=\skip276
+\multicolbaselineskip=\skip277
 \partial@page=\box33
 \last@line=\box34
 \maxbalancingoverflow=\dimen162
@@ -548,21 +544,21 @@ Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \@tempa=\box53
 \@tempa=\box54
 \@tempa=\box55
-\c@columnbadness=\count171
-\c@finalcolumnbadness=\count172
+\c@columnbadness=\count170
+\c@finalcolumnbadness=\count171
 \last@try=\dimen163
 \multicolovershoot=\dimen164
 \multicolundershoot=\dimen165
 \mult@nat@firstbox=\box56
 \colbreak@box=\box57
-\mc@col@check@num=\count173
+\mc@col@check@num=\count172
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/paralist/paralist.sty
-Package: paralist 2013/06/09 v2.4 Extended list environments
-\pltopsep=\skip217
-\plpartopsep=\skip218
-\plitemsep=\skip219
-\plparsep=\skip220
+Package: paralist 2015/12/30 v2.5 Extended list environments
+\pltopsep=\skip278
+\plpartopsep=\skip279
+\plitemsep=\skip280
+\plparsep=\skip281
 \pl@lab=\toks29
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -582,13 +578,13 @@ sts.tex))
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
-Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks31
 \pgfkeys@temptoks=\toks32
@@ -607,10 +603,10 @@ ode.tex
 \pgf@yc=\dimen175
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count174
-\c@pgf@countb=\count175
-\c@pgf@countc=\count176
-\c@pgf@countd=\count177
+\c@pgf@counta=\count173
+\c@pgf@countb=\count174
+\c@pgf@countc=\count175
+\c@pgf@countd=\count176
 \t@pgf@toka=\toks34
 \t@pgf@tokb=\toks35
 \t@pgf@tokc=\toks36
@@ -622,7 +618,7 @@ Driver file for pgf: pgfsys-pdftex.def
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
 ef
-File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
 df.def
@@ -631,21 +627,21 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count178
-\pgfsyssoftpath@bigbuffer@items=\count179
+\pgfsyssoftpath@smallbuffer@items=\count177
+\pgfsyssoftpath@bigbuffer@items=\count178
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen176
-\pgfmath@count=\count180
+\pgfmath@count=\count179
 \pgfmath@box=\box59
 \pgfmath@toks=\toks37
 \pgfmath@stack@operand=\toks38
@@ -670,7 +666,7 @@ code.tex)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count181
+\c@pgfmathroundto@lastzeros=\count180
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -698,29 +694,29 @@ File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
-File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen193
 \pgf@shorten@start@additional=\dimen194
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
-File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box60
 \pgf@hbox=\box61
 \pgf@layerbox@main=\box62
-\pgf@picture@serial@count=\count182
+\pgf@picture@serial@count=\count181
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
-File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
-\pgflinewidth=\dimen195
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen256
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
-File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
-\pgf@pt@x=\dimen196
-\pgf@pt@y=\dimen197
-\pgf@pt@temp=\dimen198
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen257
+\pgf@pt@y=\dimen258
+\pgf@pt@temp=\dimen259
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -736,14 +732,14 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
-File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
-\pgfarrowsep=\dimen199
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen260
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen200
-\pgf@sys@shading@range@num=\count183
+\pgf@max=\dimen261
+\pgf@sys@shading@range@num=\count182
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -751,7 +747,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
-File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box63
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
@@ -768,22 +764,22 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
-File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box64
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
-File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen201
-\pgf@nodesepend=\dimen202
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen262
+\pgf@nodesepend=\dimen263
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
@@ -791,66 +787,65 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/math/pgfmath.sty
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen203
-\pgffor@skip=\dimen204
+\pgffor@iter=\dimen264
+\pgffor@skip=\dimen265
 \pgffor@stack=\toks40
 \pgffor@toks=\toks41
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
-Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count184
-\pgfplotmarksize=\dimen205
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count183
+\pgfplotmarksize=\dimen266
 )
-\tikz@lastx=\dimen206
-\tikz@lasty=\dimen207
-\tikz@lastxsaved=\dimen208
-\tikz@lastysaved=\dimen209
-\tikzleveldistance=\dimen210
-\tikzsiblingdistance=\dimen211
+\tikz@lastx=\dimen267
+\tikz@lasty=\dimen268
+\tikz@lastxsaved=\dimen269
+\tikz@lastysaved=\dimen270
+\tikzleveldistance=\dimen271
+\tikzsiblingdistance=\dimen272
 \tikz@figbox=\box65
 \tikz@figbox@bg=\box66
 \tikz@tempbox=\box67
 \tikz@tempbox@bg=\box68
-\tikztreelevel=\count185
-\tikznumberofchildren=\count186
-\tikznumberofcurrentchild=\count187
-\tikz@fig@count=\count188
+\tikztreelevel=\count184
+\tikznumberofchildren=\count185
+\tikznumberofcurrentchild=\count186
+\tikz@fig@count=\count187
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count189
-\pgfmatrixcurrentcolumn=\count190
-\pgf@matrix@numberofcolumns=\count191
+\pgfmatrixcurrentrow=\count188
+\pgfmatrixcurrentcolumn=\count189
+\pgf@matrix@numberofcolumns=\count190
 )
-\tikz@expandcount=\count192
+\tikz@expandcount=\count191
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 \columni=\box69
-\colwidthi=\skip221
-\colheighti=\skip222
-\col@i@posx=\skip223
-\col@i@posy=\skip224
-\col@i@evenx=\skip225
-\col@i@eveny=\skip226
-\LeftMainSep=\skip227
+\colwidthi=\skip282
+\colheighti=\skip283
+\col@i@posx=\skip284
+\col@i@posy=\skip285
+\col@i@evenx=\skip286
+\col@i@eveny=\skip287
+\LeftMainSep=\skip288
 \@staticframe@i=\box70
-\@sf@i@posx=\skip228
-Normal \skip register pool exhausted, switching to extended pool.
-\@sf@i@posy=\skip256
-\@sf@i@evenx=\skip257
-\@sf@i@eveny=\skip258
+\@sf@i@posx=\skip289
+\@sf@i@posy=\skip290
+\@sf@i@evenx=\skip291
+\@sf@i@eveny=\skip292
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -858,12 +853,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 43.
 \columnii=\box71
-\colwidthii=\skip259
-\colheightii=\skip260
-\col@ii@posx=\skip261
-\col@ii@posy=\skip262
-\col@ii@evenx=\skip263
-\col@ii@eveny=\skip264
+\colwidthii=\skip293
+\colheightii=\skip294
+\col@ii@posx=\skip295
+\col@ii@posy=\skip296
+\col@ii@evenx=\skip297
+\col@ii@eveny=\skip298
  (./template_a.aux)
 \openout1 = `template_a.aux'.
 
@@ -886,16 +881,16 @@ File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count193
-\scratchdimen=\dimen212
+\scratchcounter=\count192
+\scratchdimen=\dimen273
 \scratchbox=\box72
-\nofMPsegments=\count194
-\nofMParguments=\count195
+\nofMPsegments=\count193
+\nofMParguments=\count194
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count196
-\MPscratchDim=\dimen213
-\MPnumerator=\count197
-\makeMPintoPDFobject=\count198
+\MPscratchCnt=\count266
+\MPscratchDim=\dimen274
+\MPnumerator=\count267
+\makeMPintoPDFobject=\count268
 \everyMPtoPDFconversion=\toks43
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -989,10 +984,10 @@ LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <10.95> not available
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./template_a.aux) ) 
 Here is how much of TeX's memory you used:
- 17198 strings out of 493089
- 313954 string characters out of 6134842
- 428225 words of memory out of 5000000
- 20407 multiletter control sequences out of 15000+600000
+ 17232 strings out of 493033
+ 315592 string characters out of 6134145
+ 429971 words of memory out of 5000000
+ 20496 multiletter control sequences out of 15000+600000
  17121 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,16n,54p,475b,517s stack positions out of 5000i,500n,10000p,200000b,80000s

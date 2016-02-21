@@ -19,9 +19,6 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/etex-pkg/etex.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/etex-pkg/etex.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/etex-pkg/etex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/memoir/mem11.clo
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/memoir/mem11.clo
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map
