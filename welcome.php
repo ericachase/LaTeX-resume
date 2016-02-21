@@ -10,8 +10,9 @@ echo $Content;
 //resetting the db file on load.
 shell_exec('rm database.csv');
 
+file_put_contents('database.csv', $Content);
 //cat-ing the contents of the GET to a db file
-shell_exec('echo' . ' ' . $Content . ' ' . '>' . 'database.csv');
+//shell_exec('echo' . ' ' . $Content . ' ' . '>' . 'database.csv');
 
 //calling the complie command
 shell_exec('pdflatex' . ' ' . 'simpleres.tex' . ' ' . 'database.csv');
