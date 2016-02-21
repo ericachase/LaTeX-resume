@@ -15,18 +15,18 @@ file_put_contents('database.csv', $Content);
 //shell_exec('echo' . ' ' . $Content . ' ' . '>' . 'database.csv');
 
 //calling the complie command
-shell_exec('pdflatex' . ' ' . 'points.tex' . ' ' . 'points.csv');
-
+$response = shell_exec('pdflatex' . ' ' . 'points.tex' . ' ' . 'points.csv');
+echo response;
 //$output = shell_exec('pdflatex command_test.tex ' + $name);
 // echo ('pdflatex command_test.tex ' + $name); 
-$path = 'points.pdf';
-header("Content-Length: " . filesize ( $path ) ); 
-header("Content-type: application/pdf"); 
-header("Content-disposition: inline; filename=".basename($path));
-header('Expires: 0');
-header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
-ob_clean();
-flush();
-readfile($path);
+// $path = 'points.pdf';
+// header("Content-Length: " . filesize ( $path ) ); 
+// header("Content-type: application/pdf"); 
+// header("Content-disposition: inline; filename=".basename($path));
+// header('Expires: 0');
+// header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
+// ob_clean();
+// flush();
+// readfile($path);
 
 ?>
