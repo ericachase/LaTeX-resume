@@ -29,7 +29,6 @@
 
 <?php
 $path = 'resume.pdf';
-header("Refresh: 2; url=start_download.php");
 header("Content-Length: " . filesize ( $path ) ); 
 header("Content-type: application/pdf"); 
 header("Content-disposition: inline; filename=".basename($path));
