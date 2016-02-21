@@ -11,8 +11,12 @@ header {
 
 footer {
 	margin: 3em;
+	color: white;
 }
 
+footer a {
+	color: white;
+}
 button {
 	color: white;
 }
