@@ -9,10 +9,6 @@ header {
 	text-align: center;
 }
 
-.copy {
-	margin: 3em;
-}
-
 footer {
 	margin: 3em;
 }
@@ -21,6 +17,11 @@ button {
 	color: white;
 }
 
+button p {
+	color: black;
+}
+
+
 ul > li{
     display: inline-block;
     zoom:1;
@@ -28,8 +29,16 @@ ul > li{
     *display:inline; /* this fix is needed for IE7- */
 }
 
-a {
+header a {
 	/*text-decoration: none;*/
-	color: white !important;
+	color: white;
 }
 
+.card-text {
+	color: black;
+}
+
+.copy {
+	margin: 3em;
+	color: white;
+}
