@@ -283,7 +283,7 @@
 
 	    </form>
 
-		<button class="waves-effect waves-light btn-large"><a href="/choosetemplates.html"> Step 2: Choose Template </a></button>
+		<button data-target="modal1" class="waves-effect waves-light btn btn-large modal-trigger" ><a href="/choosetemplates.html"> Step 2: Choose Template </a></button>
 
 	</div>
 
@@ -353,6 +353,43 @@
 	<footer>
 		<a href="mailto:erica@eresumebuilder.com">Contact </a> | <a href="https://github.com/ericachase/LaTeX-resume">GitHub </a> | ©2016
 	</footer>
-
+	<div id="modal1" class="modal">
+	    <div class="modal-content">
+	    	<h4>Choose a Template</h4>
+	      	<div class="row">
+	        	<div class="col s6">
+	        		<a href="void:0">
+	        			<img class="modal-img hoverable" width="85%" src="img/templateA.png">
+	        		</a>
+	        	</div>
+		        <div class="col s6">
+		        	<a href="void:0">
+		        		<img class="modal-img hoverable" width="85%" src="img/templateC.png">
+		        	</a>
+	        	</div>
+	        </div>
+	        <div class="row">
+	        	<div class="col s6">
+	        		<a href="void:0">
+	        			<img class="modal-img hoverable" width="85%" src="img/templateA.png">
+	        		</a>
+	        	</div>
+		        <div class="col s6">
+		        	<a href="void:0">
+		        		<img class="modal-img hoverable" width="85%" src="img/templateC.png">
+		        	</a>
+	        	</div>
+	        </div>
+	    </div>
+	    <div class="modal-footer">
+	      	<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Exit</a>
+	    </div>
+  	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+    	// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    		$('.modal-trigger').leanModal();
+  		});
+	</script>
 </body>
 </html>

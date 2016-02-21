@@ -51,3 +51,12 @@ header a {
 	margin: 3em;
 	color: white;
 }
+
+.modal-img {
+	margin: .5em;
+	border-style: 3px solid;
+}
+
+.modal h4 {
+	color: black;
+}
